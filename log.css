@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300); 
+
+.login-page {
+  max-width: 450px;
+  padding: 8% 0 0;
+  margin: auto;
+  margin-top: -4%
+}
+.form {
+  position: relative;
+  z-index: 1;
+    opacity: .9;
+  background: #fff;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 10% 5%;
+  text-align: center;
+  box-shadow: 2px 2px 20px 0 rgba(0, 0, 0), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 12px;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 5%;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 12px;
+}
+.form button {
+    border-radius: 12px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+ .form .message {
+  margin: 19px 0 0;
+  color: #b3b3b3;
+  font-size: 15px;
+}  
+
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.fottercontainer{
+    background-color: darkgray;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+
+.header-logo{
+    width: 20%;
+}
+
+.header-image{
+    text-align: center;
+    padding-top: 45px;
+}
+
+
+.continue{
+    text-decoration: none;
+    display: block;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 20px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
